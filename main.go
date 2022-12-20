@@ -6,6 +6,9 @@ import (
 	"time"
 )
 
+func multi(a, b int) int {
+	return a * b
+}
 func runandwait(a, b int) int {
 	c := a + b
 	log.WithFields(log.Fields{
